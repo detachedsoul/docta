@@ -4,6 +4,10 @@
 
 @layer base {
 
+    a {
+        @apply font-semibold
+    }
+
     .header {
         @apply font-poppins font-semibold
     }
