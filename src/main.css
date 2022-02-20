@@ -5,7 +5,7 @@
 @layer base {
 
     .header {
-        @apply font-poppins
+        @apply font-poppins font-semibold
     }
 
 }
