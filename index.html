@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="assets/icons/uicons.min.css">
     <link rel="stylesheet" href="assets/icons/all.min.css">
 </head>
-<body class="antialiased break-words font-medium text-[1.05rem] tracking-wide font-mulish scroll-smooth">
+<body class="antialiased break-words text-base tracking-wide font-poppins scroll-smooth">
 
     <div class="bg-fixed bg-gradient-to-tr from-light-pink to-brand-pink">
 
-        <header class="text-base">
+        <header>
     
             <nav class="border-b border-brand-indigo py-3 lg:flex lg:justify-between lg:gap-4 lg:px-12">
     
@@ -38,13 +38,13 @@
     
                 </div>
     
-                <div class="absolute p-4 top-[calc(100%+1px)] bg-gradient-to-tr from-light-pink to-brand-pink min-h-screen -translate-x-full lg:static lg:translate-x-0 lg:min-h-0 lg:bg-none lg:bg-tranparent lg:p-0 lg:flex lg:items-center lg:gap-8">
+                <div class="absolute p-4 top-[calc(100%+1px)] bg-gradient-to-tr from-light-pink to-brand-pink min-h-screen -translate-x-full lg:static lg:translate-x-0 lg:min-h-0 lg:bg-none lg:bg-tranparent lg:p-0 lg:flex lg:items-center lg:gap-4 lg:flex-shrink-0">
     
                     <a class="hidden lg:block" href="">
                         Docta
                     </a>
     
-                    <ul class="flex flex-col gap-3 lg:flex-row lg:items-center">
+                    <ul class="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-0">
     
                         <li>
                             <a class="text-brand-purple py-2 px-4 rounded-md block hover:bg-brand-purple hover:text-white active:bg-brand-purple active:text-white" href="">
@@ -86,7 +86,7 @@
     
                 </div>
     
-                <div class="hidden lg:flex lg:items-center lg:gap-8">
+                <div class="hidden lg:flex lg:items-center lg:gap-4">
     
                     <div>
     
@@ -126,7 +126,7 @@
 
                 <div class="flex gap-y-2 gap-x-4 items-center flex-wrap">
 
-                    <a class="rounded-full py-2.5 px-4 bg-brand-indigo text-white hover:bg-white hover:text-brand-indigo" href="">
+                    <a class="rounded-full py-2.5 px-4 bg-brand-indigo text-brand-pink hover:bg-brand-purple hover:text-white" href="">
                         Ask A Doctor Online
                     </a>
 
@@ -172,7 +172,9 @@
 
                 <div class="bg-[#f9f8fa] shadow text-center col-span-12 p-4 rounded-md space-y-4 lg:col-span-3">
 
-                    <img class="rounded-full h-10 w-10 mx-auto" src="assets/img/profile-1.png" alt="" width="2.5rem" height="2.5rem">
+                    <span class="block mx-auto bg-red-500 text-white rounded-full p-4 w-10 h-10 relative">
+                        <i class="fr fi-rr-user absolute left-1/4 right-[20.5%] top-1/4"></i>
+                    </span>
 
                     <div>
 
@@ -190,7 +192,9 @@
 
                 <div class="bg-[#f9f8fa] shadow text-center col-span-12 p-4 rounded-md space-y-4 lg:col-span-3">
 
-                    <img class="rounded-full h-10 w-10 mx-auto" src="assets/img/profile-1.png" alt="" width="2.5rem" height="2.5rem">
+                    <span class="block mx-auto bg-green-500 text-white rounded-full p-4 w-10 h-10 relative">
+                        <i class="fr fi-rr-lock absolute left-1/4 right-[20.5%] top-1/4"></i>
+                    </span>
 
                     <div>
 
@@ -208,7 +212,9 @@
 
                 <div class="bg-[#f9f8fa] shadow text-center col-span-12 p-4 rounded-md space-y-4 lg:col-span-3">
 
-                    <img class="rounded-full h-10 w-10 mx-auto" src="assets/img/profile-1.png" alt="" width="2.5rem" height="2.5rem">
+                    <span class="block mx-auto bg-slate-900 text-white rounded-full p-4 w-10 h-10 relative">
+                        <i class="fr fi-rr-user-add absolute left-1/4 right-[20.5%] top-1/4"></i>
+                    </span>
 
                     <div>
 
@@ -226,7 +232,9 @@
 
                 <div class="bg-[#f9f8fa] shadow text-center col-span-12 p-4 rounded-md space-y-4 lg:col-span-3">
 
-                    <img class="rounded-full h-10 w-10 mx-auto" src="assets/img/profile-1.png" alt="" width="2.5rem" height="2.5rem">
+                    <span class="block mx-auto bg-yellow-500 text-white rounded-full p-4 w-10 h-10 relative">
+                        <i class="fr fi-rr-comment-alt absolute left-1/4 right-[20.5%] top-[30%]"></i>
+                    </span>
 
                     <div>
 
@@ -249,7 +257,7 @@
         <div class="grid gap-4 items-center grid-cols-12 px-4 py-12 lg:w-[90%] lg:mx-auto lg:px-12 lg:py-16 lg:gap-16">
 
             <div class="col-span-12 lg:col-span-6">
-                <img class="w-full h-auto" src="assets/img/doctor-pointing-up-2.png" alt="">
+                <img class="w-full h-auto rounded-md" src="assets/img/smiling-doctor.jpg" alt="" width="100%" height="100%">
             </div>
 
             <div class="col-span-12 space-y-4 lg:col-span-6">
@@ -259,8 +267,80 @@
                 </h3>
 
                 <p class="text-brand-indigo">
-                    Post unlimited follow-ups to the doctor for the next 50 to 100 hours by picking one of our #icliniq50hrs or #icliniq100hrscgat services. Easily accessible via our comprehensive consultation app available for both Android and iOS.
+                    Post unlimited follow-ups to the doctor for the next 50 to 100 hours by picking one of our <span class="font-bold">#icliniq50hrs</span> or <span class="font-bold">#icliniq100hrs</span> services. Easily accessible via our comprehensive consultation app available for both Android and iOS.
                 </p>
+
+                <form class="flex flex-wrap gap-4 grid-cols-12 lg:gap-8" action="">
+
+                    <label class="flex items-center gap-4 cursor-pointer group col-span-6" for="query">
+
+                        <input class="form-radio rounded-full text-brand-purple border-2 focus-within:ring-1 focus-within:ring-brand-purple cursor-pointer" type="radio" name="query" id="query">
+                        
+                        <span class="bg-white shadow-lg rounded-full py-2 pl-2 pr-8 border border-gray-100 group-focus-within:border-brand-purple">
+
+                            <span class="rounded-full bg-blue-300 text-blue-600 mr-2 py-[0.13rem] px-[0.3rem]">
+                                <i class="fr fi-rr-comment-alt relative -bottom-[0.05rem] left-[0.17rem] text-xs"></i>
+                            </span>
+
+                            Query
+
+                        </span>
+
+                    </label>
+
+                    <label class="flex items-center gap-4 cursor-pointer col-span-6 group" for="chat">
+
+                        <input class="form-radio rounded-full text-brand-purple border-2 focus-within:ring-1 focus-within:ring-brand-purple cursor-pointer" type="radio" name="chat" id="chat">
+                        
+                        <span class="bg-white shadow-lg rounded-full py-2 pl-2 pr-8 border border-gray-100  group-focus-within:border-brand-purple">
+
+                            <span class="rounded-full bg-blue-300 text-blue-600 mr-2 py-[0.13rem] px-[0.3rem]">
+                                <i class="fr fi-rr-comments relative -bottom-[0.05rem] left-[0.17rem] text-xs"></i>
+                            </span>
+
+                            Chat
+
+                        </span>
+
+                    </label>
+
+                    <label class="flex items-center gap-4 cursor-pointer col-span-6 group" for="phone">
+
+                        <input class="form-radio rounded-full text-brand-purple border-2 focus-within:ring-1 focus-within:ring-brand-purple cursor-pointer" type="radio" name="phone" id="phone">
+                        
+                        <span class="bg-white shadow-lg rounded-full py-2 pl-2 pr-8 border border-gray-100  group-focus-within:border-brand-purple">
+
+                            <span class="rounded-full bg-blue-300 text-blue-600 mr-2 py-[0.13rem] px-[0.3rem]">
+                                <i class="fr fi-rr-call-outgoing relative -bottom-[0.05rem] left-[0.17rem] text-xs"></i>
+                            </span>
+
+                            Phone
+
+                        </span>
+
+                    </label>
+
+                    <label class="flex items-center gap-4 cursor-pointer col-span-6 group" for="video">
+
+                        <input class="form-radio rounded-full text-brand-purple border-2 focus-within:ring-1 focus-within:ring-brand-purple cursor-pointer" type="radio" name="video" id="video">
+                        
+                        <span class="bg-white shadow-lg rounded-full py-2 pl-2 pr-8 border border-gray-100 group-focus-within:border-brand-purple">
+
+                            <span class="rounded-full bg-blue-300 text-blue-600 mr-2 py-[0.13rem] px-[0.3rem]">
+                                <i class="fr fi-rr-video-camera relative -bottom-[0.03rem] left-[0.17rem] text-xs"></i>
+                            </span>
+
+                            Video
+
+                        </span>
+
+                    </label>
+
+                    <button class="bg-brand-indigo text-brand-pink rounded-full py-2.5 px-4 hover:bg-brand-purple hover:text-white" type="submit">
+                        Start Chat Consultation
+                    </button>
+
+                </form>
 
             </div>
 

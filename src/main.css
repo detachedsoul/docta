@@ -5,7 +5,7 @@
 @layer base {
 
     a {
-        @apply font-semibold
+        @apply font-medium
     }
 
     .header {
